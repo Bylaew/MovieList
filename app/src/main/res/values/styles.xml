@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/appBarColor</item>
+        <item name="navigationIconTint">@color/toolbarIconColor</item>
+        <item name="colorControlNormal">@color/toolbarIconColor</item>
+    </style>
+</resources>
