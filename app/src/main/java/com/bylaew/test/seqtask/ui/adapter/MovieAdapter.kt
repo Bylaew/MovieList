@@ -7,7 +7,6 @@ import com.bumptech.glide.Glide
 import com.bylaew.test.seqtask.R
 import com.bylaew.test.seqtask.data.model.Movie
 import com.bylaew.test.seqtask.databinding.ItemMovieBinding
-import java.util.Locale
 
 class MovieAdapter(private val onMovieClick: (Movie) -> Unit) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 

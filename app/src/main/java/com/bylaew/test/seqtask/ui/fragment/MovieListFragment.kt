@@ -7,12 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bylaew.test.seqtask.R
 import com.bylaew.test.seqtask.databinding.FragmentMovieListBinding
 import com.bylaew.test.seqtask.ui.adapter.GenreAdapter
 import com.bylaew.test.seqtask.ui.adapter.MovieAdapter
